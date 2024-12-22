@@ -5,8 +5,10 @@ body {
   width: 100%;
   margin: auto;
   color: #fff;
-  font-family: "Inter-Regular", sans-serif;
+  font-family: Inter-Regular, sans-serif;
   font-size: 16px;
   line-height: 20px;
   background-color: #2a2c2f;
+  display: flex;
+  flex-direction: column;
 }

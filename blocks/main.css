@@ -1,2 +1,17 @@
 .main {
+    display: flex;
+    flex-direction: column;
+}
+.main__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__header-title {
+    font-family: Inter;
+    font-size: 96px;
+    display: flex;
+    align-items: center;
+    font-family: "Inter-Black", sans-serif;
 }
