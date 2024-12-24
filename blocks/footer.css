@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  width: 195px;
+  align-self: center;
+
+
+}
+
+.footer__copyright {
+  font-size: 14px;
+}
