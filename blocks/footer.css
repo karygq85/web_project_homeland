@@ -8,11 +8,17 @@
   flex-direction: column;
   width: 195px;
   align-self: center;
-
-
 }
 
 .footer__copyright {
   font-size: 14px;
+  line-height: 1;
 }
 
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+
+  .footer__copyright {
+    line-height: 1.3;
+  }
+  
+}

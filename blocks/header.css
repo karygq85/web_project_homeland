@@ -39,7 +39,6 @@
 }
 
 .header__image {
-  max-width: 990px;
   margin: auto;
   width: 100%;
   padding-bottom: 0;
@@ -66,6 +65,11 @@
       max-width: 290px;
       font-size: 16px;
   }
+
+  .header__logo-image {
+    margin: auto;
+    max-width: 190px;
+  }
   
 }
 
@@ -73,8 +77,14 @@
 
   .header__tittle {
       max-width: 530px;
-      font-size: 7%;
+      font-size: 75px;
       line-height: 1;
   }
+
+  .header__subtitle {
+    max-width: 290px;
+    font-size: 16px;
+  }
   
+
 }
