@@ -17,7 +17,7 @@
     line-height: 34px;
 }
 
-.intro__author {
+.main__author {
     font-size: 24px;
     font-weight: 400;
     display: flex;
@@ -25,6 +25,6 @@
 
 }
 
-.intro__quote {
+.main__quote {
     font-size: 16px;
 }
