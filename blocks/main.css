@@ -1,4 +1,18 @@
 .main {
     display: flex;
     flex-direction: column;
+    width: 830px;
+    height: auto;
 }
+
+.main__subtitle {
+    width: 830px;
+    font-size: 54px;
+    line-height: 58px;
+}
+
+.main__text {
+
+}
+
+.main__intro-a
