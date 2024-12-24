@@ -6,6 +6,43 @@
 
 .header__logo {
   margin-top: 50px;
-  width: 255px;
-  height: 69px;
+  padding-bottom: 92px;
+  max-width: 300px;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.header__title {
+  font-family: "Inter-Black", sans-serif;
+  font-size: 96px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Black", sans-serif;
+  line-height: 100px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.header__subtitle {
+  max-width: 720px;
+  padding-top: 32px;
+  margin: auto;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  width: 720px;
+  line-height: 1;
+}
+
+.header__image {
+  max-width: 990px;
+  margin: auto;
+  width: 100%;
+  padding-bottom: 0;
+  padding-top: 64px;
 }
