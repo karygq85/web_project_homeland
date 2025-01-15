@@ -121,15 +121,15 @@
   .places {
     max-width: 320px;
   }
-  .places__conteiner {
+  .places__conteiner_city {
     grid-template-areas:
-      "title"
-      "website"
+      "city"
+      "author"
       "image"
       "paragraph"
       "button";
   }
-  .places__conteiner_city {
+  .places__city-name {
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
