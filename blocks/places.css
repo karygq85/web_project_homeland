@@ -9,7 +9,7 @@
   margin: 92px auto 80px 150px;
 }
 
-.places__conteiner_city {
+.places__content {
   width: 100%;
   column-gap: 40px;
   display: grid;
@@ -21,7 +21,7 @@
   grid-template-rows: auto auto 460px auto;
 }
 
-.places__city-name {
+.places__tittle {
   width: 460px;
   font-size: 72px;
   line-height: 1.1;
@@ -45,21 +45,21 @@
   opacity: 0.5;
 }
 
-.places__author {
+.places__website {
   grid-area: author;
   margin-top: 100px;
   margin-bottom: 10px;
   width: 456px;
 }
 
-.places__role {
+.places__url-heading {
   font-size: 12px;
   color: #aaa;
   letter-spacing: 10px;
   margin: 0;
 }
 
-.places__name-author {
+.places__artist {
   font-size: 18px;
   line-height: 1.3;
   margin: 0;
@@ -103,7 +103,7 @@
   .places__conteiner {
     grid-template-rows: auto auto 340px auto;
   }
-  .places__conteiner_city {
+  .places__content {
     max-width: 340px;
     font-size: 42px;
     line-height: 46px;
@@ -121,7 +121,7 @@
   .places {
     max-width: 320px;
   }
-  .places__conteiner_city {
+  .places__content {
     grid-template-areas:
       "city"
       "author"
@@ -129,13 +129,13 @@
       "paragraph"
       "button";
   }
-  .places__city-name {
+  .places__tittle {
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
     margin-left: 16px;
   }
-  .places__author {
+  .places__artist {
     max-width: 288px;
     margin-left: 16px;
   }
