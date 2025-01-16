@@ -1,6 +1,6 @@
 .grid {
   display: flex;
-  margin-left: 45px;
+  margin: auto;
   max-width: 1200px;
 }
 .grid__gallery {
