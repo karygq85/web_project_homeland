@@ -68,7 +68,7 @@
 .places__paragraph {
   grid-area: paragraph;
   height: 100%;
-  width: 484;
+  width: 484px;
 }
 
 .places__container-button {
